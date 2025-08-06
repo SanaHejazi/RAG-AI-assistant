@@ -1,0 +1,1 @@
+For Speacial datas (PDF، TXT، FAQ)
