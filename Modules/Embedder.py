@@ -5,6 +5,9 @@ import os  #Working with files...
 import pickle #For Save And Loading python objects
 
 
+
+# This class is just used for convrting text to vector and indexes...
+
 class EmbeddingEngine:
     def __init__(self, model_name='sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'):
         self.model= SentenceTransformer(model_name)
