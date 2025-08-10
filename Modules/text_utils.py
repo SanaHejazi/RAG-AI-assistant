@@ -8,6 +8,7 @@ from typing import List
 def CleanText(s:str) -> str:
     s = s.replace('\u200c', ' ')
     s=re.sub(r'\s+',' ',s).strip()
+    return s
 
 def Chunk_Text(string:str , chunk_size:int=600, overlap:int=300)->List[str]:
     s =CleanText(string)
