@@ -1,4 +1,4 @@
-import re #"Regular Expretion"---> Just for Conducting Operation in Texts
+import re #Regular Expretion"---> Just for Conducting Operation in Texts
 from typing import List
 
 # converting long text to small pieces
@@ -17,7 +17,7 @@ def Chunk_Text(string:str , chunk_size:int=600, overlap:int=300)->List[str]:
     while start <len(s):
         end=min(start+chunk_size,len(s))
         chunk=s[start:end]
-        chunks.append[chunk]
+        chunks.append(chunk)
 
         if end == len(s):
             break

@@ -1,8 +1,8 @@
 import os
 from typing import List, Tuple
 import fitz  # PyMuPDF
-from text_utils import Chunk_Text, CleanText
-from Embedder import EmbeddingEngine
+from Modules.text_utils import Chunk_Text, CleanText
+from Modules.Embedder import EmbeddingEngine
 
 
 def ExtractPDF(pdf_patch:str)->str:
