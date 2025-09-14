@@ -3,9 +3,7 @@
 ![status](https://img.shields.io/badge/status-Incomplete%20—%20WIP-yellow)
 ![stability](https://img.shields.io/badge/stability-Experimental-orange)
 
-> 🚧 **Project Status: Incomplete / Work in Progress**  
-> این مخزن هنوز کامل نیست و در حال توسعه است. لطفاً در محیط تولید (Production) استفاده نکنید.
-
+> 🚧 **Project Status: Incomplete
 ## RAG-Based AI Assistant (Custom LLM Project)
 
 Designed and implemented a custom RAG-based AI assistant using vector search, multilingual embeddings, and open-source LLMs, integrated with a user-facing UI.
